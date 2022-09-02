@@ -4,7 +4,7 @@ import React, { useCallback } from "react";
 import { useDispatch } from "react-redux";
 import styled from "styled-components";
 import useInput from "../hooks/useInput";
-import { loginAction } from "../reducers";
+import { loginAction } from "../reducers/user";
 
 const FormWrapepr = styled(Form)`
   padding: 10px;
