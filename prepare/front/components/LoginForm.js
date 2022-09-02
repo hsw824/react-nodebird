@@ -17,11 +17,13 @@ const ButtonWrapper = styled.div`
 const LoginForm = () => {
   const [id, onChangeId] = useInput("");
   const [password, onChangePassword] = useInput("");
+
   const dispatch = useDispatch();
 
   const onSubmitForm = useCallback(() => {
     dispatch(loginAction({ id, password }));
   }, [id, password]);
+
   return (
     <FormWrapepr onFinish={onSubmitForm}>
       <div>
