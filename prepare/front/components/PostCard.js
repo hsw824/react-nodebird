@@ -9,7 +9,6 @@ import {
   EllipsisOutlined,
 } from "@ant-design/icons";
 import styled from "styled-components";
-import Link from "next/link";
 import { useSelector } from "react-redux";
 
 import CommentForm from "./CommentForm";

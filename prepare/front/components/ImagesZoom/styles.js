@@ -33,7 +33,7 @@ export const CloseBtn = styled(CloseOutlined)`
   cursor: pointer;
 `;
 export const SlickWrapper = styled.div`
-  height: calc(100%-44px);
+  height: calc(100% - 44px);
   background: #090909;
 `;
 
