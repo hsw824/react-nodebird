@@ -95,7 +95,7 @@ const PostCard = ({ post }) => {
           />
         </div>
       )}
-      {/*<Coments /> */}
+      {/* <Coments /> */}
     </CardWrapper>
   );
 };
