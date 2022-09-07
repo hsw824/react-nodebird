@@ -7,14 +7,14 @@ import PostCard from "../components/PostCard";
 import { LOAD_POSTS_REQUEST } from "../reducers/post";
 
 const Home = () => {
-  const dispath = useDispatch();
+  const dispatch = useDispatch();
 
   const { me } = useSelector((state) => state.user);
   const { mainPosts, hasMorePosts, loadPostsLoading } = useSelector(
     (state) => state.post
   );
   useEffect(() => {
-    dispath({
+    dispatch({
       type: LOAD_POSTS_REQUEST,
     });
   }, []);
